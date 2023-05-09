@@ -93,3 +93,50 @@ a:hover {
 	text-align: center;
 }
 
+/* Contact form styles */
+section#contact {
+	margin: 50px auto;
+	max-width: 600px;
+}
+
+section#contact form {
+	display: flex;
+	flex-direction: column;
+}
+
+section#contact label {
+	margin-bottom: 10px;
+}
+
+section#contact input,
+section#contact textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+section#contact input[type="submit"] {
+	background-color: #c0392b;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+section#contact input[type="submit"]:hover {
+	background-color: #e74c3c;
+}
+
+/* Page layout styles */
+main {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+
